@@ -16,12 +16,14 @@ To run, use the command:
 > java -jar landmine-0.1.0-standalone.jar [args]
 
 where
+```
 |Argument |Name |Default|
 |--------:|:----|:-----:|
 | Breadth |  m  |  100  |
 |  Depth  |  n  |  100  |
 | % Open  |  q  |   85  |
 | # runs  |  k  | 10000 |
+```
 
 To run a 100x100 grid with 15% of squares filled with mines (85% "Don't Really Explode" (DRE)), run:
 > java -jar landmine-0.1.0-standalone.jar m 100 n 100 q 85 k 10000
